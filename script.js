@@ -14,7 +14,7 @@ function createAcc() {
          return false;
      } else {
          alert ('your form has been submitted successfully');
-         const url = `http://127.0.0.1:5500/home.html`
+        window.location.href = "home.html"
          window.open(url, '_blank')
      }
 
