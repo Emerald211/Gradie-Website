@@ -1,0 +1,168 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./Assets/Background2.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container  {
+    width: 80vw;
+    height: 90vh;
+    background-color: white;
+}
+
+.flex1 {
+    background-color: blue;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex1 h3 {
+    font-size: 2.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.flex2 h5 {
+    font-size: 1.5rem;
+    color: grey;
+}
+
+#email {
+    width: 350px;
+    height: 50px;
+}
+
+#Subscribe {
+    width: 140px;
+    height: 55px;
+    background-color: blue;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.div p {
+    font-size: 0.8rem;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flex3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.name {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    margin-top: -20px;
+}
+
+.name h6 {
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.name p {
+    margin-top: -30px;
+    font-size: 1.0rem;
+    color: gray;
+    display: flex;
+    align-items: center;
+}
+
+.flex3 p {
+    color: gray;
+}
+
+@media screen and (max-width:600px) {
+    body {
+        background: none;
+        margin: 0;
+    }
+    .container  {
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+        
+    }
+
+    .flex1 {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .flex2 {
+        padding: 0 10px;
+    }
+
+    .flex3 {
+        
+    }
+
+    #email {
+        width: 240px;
+        height: 50px;
+    }
+
+    .aa {
+        display: flex;
+        
+    }
+
+    #Subscribe {
+        width: 120px;
+    }
+
+
+}
+
+@media screen and (min-width:600px) and (max-width:920px) {
+    body {
+        margin: 0;
+    }
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .flex1 {
+        
+    }
+
+   
+}

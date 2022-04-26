@@ -1,0 +1,203 @@
+html {
+    box-sizing: border-box;
+  
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Assets/Background.png) ;
+    background-size: cover;
+
+    height: 100vh;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.flex1 {
+    background-color: rgb(2, 2, 27);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 570px;
+}
+
+.flex1 h4 {
+    color: white;
+    font-size: 2.3rem;
+}
+
+.flex1 p {
+    color: white;
+    margin-top: -20px;
+}
+
+.flex1 img {
+    width: 330px;
+}
+
+.flex2 {
+    width: 500px;
+    height: 570px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex2 h4 {
+    color: rgb(2, 2, 27);
+    font-size: 2.3rem;
+}
+
+.form {
+  
+    
+
+}
+
+.username {
+    margin: 15px 0;
+}
+
+.username label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(2, 2, 27);
+}
+
+.username input {
+    width: 300px;
+    height: 50px;
+    border-radius: 3px ;
+    border: 2px solid gray;
+}
+
+.agreement {
+    display: flex;
+
+    margin-top: 40px;
+    
+}
+
+.agreement p {
+    font-size: 1.3rem;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.agreement span {
+    color: rgb(2, 2, 27);
+    text-decoration: underline;
+    font-weight: bold;
+}
+.agreement input {
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(2, 2, 27);
+}
+
+.form button {
+    width: 50vh;
+    height: 50px;
+    background-color: rgb(2, 2, 27);
+    color: white;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    transition: all 1s;
+}
+
+.form button:hover {
+    background-color: transparent;
+    border: 2px solid rgb(2, 2, 27);
+    color: rgb(2, 2, 27);
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:600px) {
+
+    body {
+        display: flex;
+        margin: 0;
+        justify-content: left;
+        align-items: flex-start;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex1 {
+        width: 100vw;
+        height: 400px;
+    }
+    .flex1 img {
+        width: 250px;
+       
+    }
+
+    .flex2 {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .flex2 h4 {
+        font-size: 2.2rem;
+    }
+    .username input {
+        width: 60vw;
+        height: 50px;
+        border-radius: 3px ;
+        border: 2px solid gray;
+    }
+    .form button {
+        width: 70vw;
+        height: 50px;
+        background-color: rgb(2, 2, 27);
+        color: white;
+        border-radius: 3px;
+        font-size: 1.2rem;
+        transition: all 1s;
+    }
+    
+}
+
+@media screen and (min-width:600px) and (max-width:915px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .flex1 {
+        width: 80vw;
+    }
+
+    .flex2 {
+        width: 80vw;
+    }
+
+    .username input {
+        width: 50vw;
+        height: 50px;
+        border-radius: 3px ;
+        border: 2px solid gray;
+    }
+    .form button {
+        width: 60vw;
+        height: 50px;
+        background-color: rgb(2, 2, 27);
+        color: white;
+        border-radius: 3px;
+        font-size: 1.2rem;
+        transition: all 1s;
+    }
+
+
+}
