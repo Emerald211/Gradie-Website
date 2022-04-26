@@ -112,7 +112,7 @@ body {
 }
 
 .form button:hover {
-    background-color: transparent;
+    background-color: rgb(245, 42, 218);
     border: 2px solid rgb(2, 2, 27);
     color: rgb(2, 2, 27);
     transform: scale(1.1);
