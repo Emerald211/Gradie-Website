@@ -14,7 +14,9 @@ function createAcc() {
          return false;
      } else {
          alert ('your form has been submitted successfully');
-         window.location.href = 'homepage.html'
+         const url = 'homepage.html'
+         window.open(url, '_blank') 
+    
      }
 
 }
